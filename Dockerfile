@@ -6,5 +6,3 @@ RUN mkdir /app
 WORKDIR /app
 
 COPY . .
-
-RUN java -jar ./target/spring-petclinic-2.5.0-SNAPSHOT.jar
