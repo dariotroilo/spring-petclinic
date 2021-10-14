@@ -7,4 +7,4 @@ WORKDIR /app
 
 COPY . .
 
-java -jar ./target/spring-petclinic-2.5.0-SNAPSHOT.jar
+RUN java -jar ./target/spring-petclinic-2.5.0-SNAPSHOT.jar
