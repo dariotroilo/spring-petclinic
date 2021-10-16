@@ -8,4 +8,4 @@ WORKDIR /app
 COPY . .
 
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "*.jar"]
+ENTRYPOINT ["java", "-jar", "./target/*.jar"]
