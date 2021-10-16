@@ -8,4 +8,4 @@ WORKDIR /app
 COPY . .
 
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "./target/*.jar"]
+ENTRYPOINT ["java", "-jar", "./target/spring-petclinic-2.5.0-SNAPSHOT.jar"]
